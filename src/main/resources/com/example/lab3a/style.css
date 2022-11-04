@@ -1,0 +1,88 @@
+.root{
+    -fx-font-family: Consolas;
+    -fx-font-weight: 700;
+    -fx-alignment: center;
+}
+#formula{
+    -fx-font-weight: 900;
+    -fx-font-size: 1.2em;
+}
+.label{
+    -fx-text-fill: white;
+}
+.button{
+    -fx-background-color: #B0B0B0;
+    -fx-text-fill: white;
+}
+.table-view{
+    -fx-background-color: #606060;
+    -fx-border-radius: 0.0;
+}
+.table-view .column-header{
+    -fx-background-color: #303030;
+}
+.table-view .cell{
+    -fx-text-fill: white;
+    -fx-background-color: #606060;
+}
+.button:hover{
+    -fx-background-color: #A0A0A0;
+}
+.button:pressed{
+    -fx-background-color: #303030;
+}
+.text-field{
+    -fx-background-color: #B0B0B0;
+    -fx-text-fill: white;
+}
+.list-view{
+    -fx-background-color: #606060;
+}
+.list-view .list-cell{
+    -fx-background-color: #606060;
+    -fx-background-radius: 5;
+    -fx-text-fill: white;
+}
+.list-view .list-cell:hover{
+    -fx-background-radius: 5;
+    -fx-background-color: #505050;
+    -fx-text-fill: white;
+}
+.list-view .list-cell:focused{
+    -fx-background-radius: 5;
+    -fx-background-color: #303030;
+    -fx-text-fill: white;
+}
+.scroll-bar{
+    -fx-background-color: #606060;
+}
+.scroll-bar .thumb{
+    -fx-background-color: white;
+}
+.list-view .scroll-bar{
+    -fx-background-color: #606060;
+}
+.list-view .scroll-bar .thumb{
+    -fx-background-color: white;
+}
+.scroll-bar .track{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0.0em;
+    -fx-border-radius: 0.0em;
+}
+.scroll-bar .increment-button, .scroll-bar .decrement-button{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0.0em;
+    -fx-border-radius: 0.0em;
+    -fx-padding: 0.0 0.0 5.0 0.0;
+}
+.scroll-bar .increment-arrow, .scroll-bar .decrement-arrow{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0.0em;
+    -fx-border-radius: 0.0em;
+    -fx-padding: 0.0 5.0 0.0 0.0;
+    -fx-shape: " ";
+}
